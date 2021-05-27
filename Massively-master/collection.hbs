@@ -1,0 +1,142 @@
+{{!< default}} <style>
+    #board {
+    display: flex;
+    padding: 5vh 3vw 5vh 3vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+
+    #collection-section {
+    margin-top: 2vh;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(145deg, #303436, #1d1f20);
+    flex-wrap: wrap-reverse;
+    }
+
+    #header-img {
+    padding-top:8vh;
+    height: 60vh;
+    box-shadow: -9px 9px 18px #262b2d93;
+    }
+
+    .collectioncards {
+    margin: 5vh 2vw 5vh 2vw;
+    border-style: solid;
+    text-decoration: none;
+    border-color: #292d3018;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #000;
+    border-radius: 6%;
+    background: linear-gradient(145deg, #292d308e, #30363988);
+    box-shadow: -9px 9px 18px #262b2d93, 9px -9px 18px #343a3d91;
+    text-align: center;
+    }
+
+    .collectionpic {
+    width: 200px;
+    border-radius: 8%;
+    padding: 1vw;
+    }
+
+    .collection-header {
+    color: #f2f2f2;
+    font-size: 3rem;
+    padding: 2vh 2vw 2vh 2vw;
+    }
+    @media screen and (max-width: 720px) {
+    #header-img {
+    margin-top: 3vh;
+    height: 60vh;
+    box-shadow: -9px 9px 18px #262b2d93;
+    }
+
+    #collection-section {
+    margin-top: 2vh;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg, #303436, #1d1f20);
+    flex-wrap: wrap-reverse;
+    }
+    }
+
+    @media screen and (max-width: 480px) {
+    #header-img {
+    margin-top: 6vh;
+    height: 40vh;
+    box-shadow: -2px 2px 4px #262b2d93;
+    }
+
+    #collection-section {
+    margin-top: 2vh;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg, #303436, #1d1f20);
+    flex-wrap: wrap-reverse;
+    }
+    }
+
+    @media screen and (max-width: 360px) {
+    #header-img {
+    margin-top: 6vh;
+    height: 30vh;
+    box-shadow: -2px 2px 4px #262b2d93;
+    }
+
+    #collection-section {
+    margin-top: 2vh;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg, #303436, #1d1f20);
+    flex-wrap: wrap-reverse;
+    }
+    }
+    </style>
+
+    <main id="main">
+        <section id="collection-section">
+            <header class="collection-header">The Collection</header>
+            <img src="/assets/images/collect.png" id="header-img">
+        </section>
+
+        <p id="collection-summ">In this site, we explore the ins and outs of topics in politics and culture through
+            the lenses of history and data analytics. This collection of writing, guides, projects, recipes and
+            photographs hopes to give you
+            a glimpse of the world through my eyes.</p>
+
+        <div id="board">
+
+            <a href="/collection/articles/" class="collectioncards" id="article-card">
+                <img src='/assets/images/writer.jpg' alt="typewriter" class="collectionpic">
+                <h3 class="collectiontitle">Articles</h3>
+            </a>
+            <a href="/collection/photography/" class="collectioncards" id="photography-card">
+                <img src="/assets/images/photo.jpg" alt="Man holding camera" class="collectionpic">
+                <h3 class="collectiontitle">Photographs</h3>
+            </a>
+            <a href="/collection/what-to/" class="collectioncards" id="what-to-card">
+                <img src="/assets/images/tech.jpg" alt="media collection" class="collectionpic">
+                <h3 class="collectiontitle">What to Media</h3>
+            </a>
+            <a href="/collection/cooking/" class="collectioncards" id="cooking-card">
+                <img src="/assets/images/spices.jpg" alt="spices" class="collectionpic">
+                <h3 class="collectiontitle">Cooking</h3>
+            </a>
+            <a href="/collection/workshop/" class="collectioncards" id="workshop-card">
+                <img src="/assets/images/woodwork.jpg" alt="workshop" class="collectionpic">
+                <h3 class="collectiontitle">Workshop</h3>
+            </a>
+        </div>
+    </main>

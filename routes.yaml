@@ -1,0 +1,43 @@
+routes:
+  /:
+    data: page.home
+    template: home
+  /collecion/: 
+    data: page.collection
+    template: collection
+  /collection/articles/:
+    controller: channel
+    filter: tag:articles
+  /collection/what-to/:
+    controller: channel
+    filter: tag:what-to
+  /collection/photography/:
+    controller: channel
+    filter: tag:photography
+  /collection/cooking/:
+    controller: channel
+    filter: tag:cooking
+  /collection/workshop/:
+    controller: channel
+    filter: tag:workshop
+
+collections:
+  /collection/articles/:
+    permalink: /collection/articles/{slug}/
+    filter: tag:articles
+  /collection/what-to/:
+    permalink: /collection/what-to/{slug}/
+    filter: tag:what-to
+  /collection/photography/:
+    permalink: /collection/photography/{slug}/
+    filter: tag:photography
+  /collection/cooking/:
+    permalink: /collection/cooking/{slug}/
+    filter: tag:cooking
+  /collection/workshop/:
+    permalink: /collection/workshop/{slug}/
+    filter: tag:workshop
+
+taxonomies:
+  tag: /tag/{slug}/
+  author: /author/{slug}/

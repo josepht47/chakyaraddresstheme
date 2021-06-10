@@ -1,0 +1,86 @@
+
+/* Header */
+.site-header {
+    padding: 0 10px;  
+    height: 90px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 0 20px;
+    background: rgba( 41, 41, 41, 0.20 );
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 17.0px );
+    -webkit-backdrop-filter: blur( 17.0px );
+    width:90%;
+    position: fixed;
+
+}
+
+
+.navbar-left{
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+    margin:0 30px 0 10px;
+    vertical-align: middle;
+}
+
+.logo-image {
+    max-height: 30px;
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    margin: 0 10px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: var(--primary-text-color);
+}
+
+.menu-item-link {
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s var(--animation-base);
+    color: var(--primary-text-color);
+}
+
+.menu-item-current .menu-item-link,
+.menu-item-link:hover {
+    background-color: var(--color-three);
+    color: var(--secondary-text-color)
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        height: 70px;
+    }
+}
+
+@media (max-width: 1019px) {
+    .site-header {
+        padding: 0 15px;
+    }
+}

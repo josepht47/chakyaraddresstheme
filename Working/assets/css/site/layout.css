@@ -1,0 +1,24 @@
+/* site.css*/
+
+.site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 2rem 5rem 0 5rem;
+}
+
+.site-content {
+    flex-grow: 1;
+}
+
+.info-content{
+    background-color: var(--color-one);
+    color: var(--color-five);
+    border-style: none;
+    padding: 5vw;
+}
+@media (max-width: 767px) {
+    .site {
+        padding: 1rem 2.5rem 0 2.5rem;
+    }
+}

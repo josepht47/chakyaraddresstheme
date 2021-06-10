@@ -1,0 +1,156 @@
+/*basics*/
+:root {
+    --primary-text-color: #FBFAF8;
+    --secondary-text-color: #292929;
+    --color-one: #FBFAF8;
+    --color-two: #AF1D1D;
+    --color-three: #E6A626; /*buttons*/
+    --color-four: #0F1108; /*links, burger-bg*/ 
+    --color-five: #000;
+    --font-base: rubik, sans-serif;
+    --font-title:var(--font-base);
+    --font-subtitle:var(--font-base);
+    --animation-base: ease-in-out;
+}
+
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    color: var(--primary-text-color);
+    font-family: var(--font-base);
+    font-size: 16px;
+    line-height: 1.7;
+    text-rendering: optimizeLegibility;
+    word-break: break-word;
+    background-image: url(/assets/images/bgsm.png);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+}
+
+
+
+a {
+    color: var(--color-four);
+    text-decoration: none;
+    transition: color 0.1s var(--animation-base);
+}
+
+h1{
+    margin: 0 ;
+    color: var(--color-one);
+    line-height: 1.2;
+    font-weight: 700;
+    z-index: 2;
+    font-family: var(--font-title);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 20px;
+    color: var(--color-four);
+    line-height: 1.2;
+    font-weight: 700;
+    font-family: var(--font-subtitle);
+}
+p {
+    margin: 0 0 30px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+blockquote {
+    margin-right: 60px;
+    margin-left: 60px;
+    color: var(--secondary-text-color);
+    font-size: 22px;
+    line-height: 1.45;
+    font-weight: 500;
+}
+
+blockquote strong {
+    font-weight: 700;
+}
+
+ul,
+ol {
+    padding-left: 20px;
+}
+
+iframe,
+embed {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    border: 0;
+}
+
+figure {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+figcaption {
+    margin-top: 15px;
+    color: var(--color-four);
+    font-size: 14px;
+    text-align: center;
+}
+
+pre {
+    overflow-x: scroll;
+}
+
+code {
+    font-size: 14px;
+}
+
+hr {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 5px;
+    height: 5px;
+    border: 0;
+    background-color: var(--secondary-text-color);
+    border-radius: 50%;
+}
+
+hr::before,
+hr::after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: var(--secondary-text-color);
+    border-radius: 50%;
+}
+
+hr::before {
+    right: 20px;
+}
+
+hr::after {
+    left: 20px;
+}
+
+@media (max-width: 767px) {
+    blockquote {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}

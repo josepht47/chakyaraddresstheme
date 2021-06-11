@@ -16,6 +16,13 @@
     color: var(--color-five);
     border-style: none;
     padding: 5vw;
+    align-items: center;
+}
+
+.section-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 @media (max-width: 767px) {
     .site {

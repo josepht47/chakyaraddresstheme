@@ -1,0 +1,699 @@
+#mainhero{
+    width:40vw;
+    padding: 10px 0 10px 10px;
+    overflow: visible;
+    box-shadow:0 4px 4px #000000;
+}
+
+.rightsplatter, .leafsplatter{
+animation: movt-animr 3s alternate-reverse infinite linear;
+}
+
+.leftsplatter{
+    animation: movt-animl 3s alternate-reverse infinite linear;
+}
+
+.shirtsplatter{
+    animation: movt-animb 3s alternate-reverse infinite linear;
+}
+.hairsplatter{
+    animation: movt-animla 3s alternate-reverse infinite linear;
+}
+
+@keyframes movt-animla{
+    from{
+        transform: translate(0,0);
+    }
+    to{
+        transform: translate(-50px,-60px);
+    }
+}
+
+
+
+@keyframes movt-animb{
+    from{
+        transform: translate(0,0);
+    }
+    to{
+        transform: translate(-50px,30px);
+    }
+}
+
+@keyframes movt-animl{
+    from{
+        transform: translate(0,0);
+    }
+    to{
+        transform: translate(-50px,-50px);
+    }
+}
+@keyframes movt-animr{
+    from{
+        transform: translate(0,0);
+    }
+    to{
+        transform: translate(30px,-50px);
+    }
+}
+.st0 {
+    fill: #E0F3FF;
+}
+
+.st1 {
+    opacity: 0.5;
+    fill: #E0F3FF;
+    enable-background: new;
+}
+
+.st2 {
+    fill: #FFFFFF;
+}
+
+.st3 {
+    opacity: 0.5;
+    fill: #FFFFFF;
+    enable-background: new;
+}
+
+.st4 {
+    fill: #0C409A;
+}
+
+.st5 {
+    opacity: 0.5;
+    fill: #0C409A;
+    enable-background: new;
+}
+
+.st6 {
+    fill: url(#SVGID_1_);
+}
+
+.st7 {
+    fill: url(#SVGID_2_);
+}
+
+.st8 {
+    fill: url(#SVGID_3_);
+}
+
+.st9 {
+    fill: url(#SVGID_4_);
+}
+
+.st10 {
+    opacity: 0.5;
+    fill: url(#SVGID_5_);
+    enable-background: new;
+}
+
+.st11 {
+    fill: url(#SVGID_6_);
+}
+
+.st12 {
+    fill: url(#SVGID_7_);
+}
+
+.st13 {
+    opacity: 0.5;
+    fill: url(#SVGID_8_);
+    enable-background: new;
+}
+
+.st14 {
+    fill: url(#SVGID_9_);
+}
+
+.st15 {
+    fill: url(#SVGID_10_);
+}
+
+.st16 {
+    fill: url(#SVGID_11_);
+}
+
+.st17 {
+    fill: url(#SVGID_12_);
+}
+
+.st18 {
+    fill: url(#SVGID_13_);
+}
+
+.st19 {
+    fill: url(#SVGID_14_);
+}
+
+.st20 {
+    fill: url(#SVGID_15_);
+}
+
+.st21 {
+    fill: url(#SVGID_16_);
+}
+
+.st22 {
+    fill: url(#SVGID_17_);
+}
+
+.st23 {
+    fill: url(#SVGID_18_);
+}
+
+.st24 {
+    fill: url(#SVGID_19_);
+}
+
+.st25 {
+    fill: url(#SVGID_20_);
+}
+
+.st26 {
+    fill: url(#SVGID_21_);
+}
+
+.st27 {
+    fill: url(#SVGID_22_);
+}
+
+.st28 {
+    fill: url(#SVGID_23_);
+}
+
+.st29 {
+    fill: url(#SVGID_24_);
+}
+
+.st30 {
+    fill: url(#SVGID_25_);
+}
+
+.st31 {
+    opacity: 0.5;
+    fill: url(#SVGID_26_);
+    enable-background: new;
+}
+
+.st32 {
+    fill: url(#SVGID_27_);
+}
+
+.st33 {
+    fill: url(#SVGID_28_);
+}
+
+.st34 {
+    fill: url(#SVGID_29_);
+}
+
+.st35 {
+    fill: url(#SVGID_30_);
+}
+
+.st36 {
+    fill: url(#SVGID_31_);
+}
+
+.st37 {
+    fill: url(#SVGID_32_);
+}
+
+.st38 {
+    fill: url(#SVGID_33_);
+}
+
+.st39 {
+    fill: url(#SVGID_34_);
+}
+
+.st40 {
+    fill: url(#SVGID_35_);
+}
+
+.st41 {
+    fill: url(#SVGID_36_);
+}
+
+.st42 {
+    fill: url(#SVGID_37_);
+}
+
+.st43 {
+    fill: url(#SVGID_38_);
+}
+
+.st44 {
+    fill: url(#SVGID_39_);
+}
+
+.st45 {
+    opacity: 0.5;
+    fill: url(#SVGID_40_);
+    enable-background: new;
+}
+
+.st46 {
+    fill: url(#SVGID_41_);
+}
+
+.st47 {
+    opacity: 0.5;
+    fill: url(#SVGID_42_);
+    enable-background: new;
+}
+
+.st48 {
+    opacity: 0.5;
+    fill: url(#SVGID_43_);
+    enable-background: new;
+}
+
+.st49 {
+    opacity: 0.5;
+    fill: url(#SVGID_44_);
+    enable-background: new;
+}
+
+.st50 {
+    fill: url(#SVGID_45_);
+}
+
+.st51 {
+    fill: url(#SVGID_46_);
+}
+
+.st52 {
+    fill: url(#SVGID_47_);
+}
+
+.st53 {
+    opacity: 0.5;
+    fill: url(#SVGID_48_);
+    enable-background: new;
+}
+
+.st54 {
+    fill: url(#SVGID_49_);
+}
+
+.st55 {
+    fill: url(#SVGID_50_);
+}
+
+.st56 {
+    fill: url(#SVGID_51_);
+}
+
+.st57 {
+    fill: url(#SVGID_52_);
+}
+
+.st58 {
+    fill: url(#SVGID_53_);
+}
+
+.st59 {
+    fill: url(#SVGID_54_);
+}
+
+.st60 {
+    fill: url(#SVGID_55_);
+}
+
+.st61 {
+    fill: url(#SVGID_56_);
+}
+
+.st62 {
+    opacity: 0.82;
+    fill: url(#SVGID_57_);
+    enable-background: new;
+}
+
+.st63 {
+    fill: url(#SVGID_58_);
+}
+
+.st64 {
+    opacity: 0.82;
+    fill: url(#SVGID_59_);
+    enable-background: new;
+}
+
+.st65 {
+    fill: #047FC4;
+}
+
+.st66 {
+    opacity: 0.5;
+    fill: #047FC4;
+    enable-background: new;
+}
+
+.st67 {
+    fill: url(#SVGID_60_);
+}
+
+.st68 {
+    fill: url(#SVGID_61_);
+}
+
+.st69 {
+    fill: url(#SVGID_62_);
+}
+
+.st70 {
+    fill: url(#SVGID_63_);
+}
+
+.st71 {
+    fill: url(#SVGID_64_);
+}
+
+.st72 {
+    fill: url(#SVGID_65_);
+}
+
+.st73 {
+    fill: url(#SVGID_66_);
+}
+
+.st74 {
+    fill: url(#SVGID_67_);
+}
+
+.st75 {
+    fill: url(#SVGID_68_);
+}
+
+.st76 {
+    fill: url(#SVGID_69_);
+}
+
+.st77 {
+    fill: url(#SVGID_70_);
+}
+
+.st78 {
+    fill: #FE9083;
+}
+
+.st79 {
+    fill: url(#SVGID_71_);
+}
+
+.st80 {
+    fill: url(#SVGID_72_);
+}
+
+.st81 {
+    fill: url(#SVGID_73_);
+}
+
+.st82 {
+    fill: url(#SVGID_74_);
+}
+
+.st83 {
+    fill: url(#SVGID_75_);
+}
+
+.st84 {
+    fill: url(#SVGID_76_);
+}
+
+.st85 {
+    fill: url(#SVGID_77_);
+}
+
+.st86 {
+    fill: url(#SVGID_78_);
+}
+
+.st87 {
+    opacity: 0.5;
+    fill: url(#SVGID_79_);
+    enable-background: new;
+}
+
+.st88 {
+    fill: url(#SVGID_80_);
+}
+
+.st89 {
+    fill: url(#SVGID_81_);
+}
+
+.st90 {
+    fill: url(#SVGID_82_);
+}
+
+.st91 {
+    fill: url(#SVGID_83_);
+}
+
+.st92 {
+    fill: url(#SVGID_84_);
+}
+
+.st93 {
+    fill: #38368E;
+}
+
+.st94 {
+    fill: url(#SVGID_85_);
+}
+
+.st95 {
+    fill: url(#SVGID_86_);
+}
+
+.st96 {
+    fill: #131163;
+}
+
+.st97 {
+    fill: url(#SVGID_87_);
+}
+
+.st98 {
+    fill: #FFEBED;
+}
+
+.st99 {
+    fill: url(#SVGID_88_);
+}
+
+.st100 {
+    fill: #7F9EC9;
+}
+
+.st101 {
+    fill: #CB4D7A;
+}
+
+.st102 {
+    fill: #E4688E;
+}
+
+.st103 {
+    fill: #FF9B98;
+}
+
+.st104 {
+    fill: url(#SVGID_89_);
+}
+
+.st105 {
+    fill: #9F4A8B;
+}
+
+.st106 {
+    fill: url(#SVGID_90_);
+}
+
+.st107 {
+    opacity: 0.39;
+    fill: #A8485B;
+    enable-background: new;
+}
+
+.st108 {
+    fill: url(#SVGID_91_);
+}
+
+.st109 {
+    opacity: 0.5;
+    fill: url(#SVGID_92_);
+    enable-background: new;
+}
+
+.st110 {
+    opacity: 0.5;
+    fill: url(#SVGID_93_);
+    enable-background: new;
+}
+
+.st111 {
+    opacity: 0.5;
+    fill: url(#SVGID_94_);
+    enable-background: new;
+}
+
+.st112 {
+    fill: url(#SVGID_95_);
+}
+
+.st113 {
+    fill: url(#SVGID_96_);
+}
+
+.st114 {
+    opacity: 0.5;
+    fill: url(#SVGID_97_);
+    enable-background: new;
+}
+
+.st115 {
+    fill: url(#SVGID_98_);
+}
+
+.st116 {
+    fill: url(#SVGID_99_);
+}
+
+.st117 {
+    opacity: 0.5;
+    fill: url(#SVGID_100_);
+    enable-background: new;
+}
+
+.st118 {
+    opacity: 0.5;
+    fill: url(#SVGID_101_);
+    enable-background: new;
+}
+
+.st119 {
+    fill: url(#SVGID_102_);
+}
+
+.st120 {
+    fill: url(#SVGID_103_);
+}
+
+.st121 {
+    opacity: 0.5;
+    fill: url(#SVGID_104_);
+    enable-background: new;
+}
+
+.st122 {
+    opacity: 0.5;
+    fill: url(#SVGID_105_);
+    enable-background: new;
+}
+
+.st123 {
+    opacity: 0.5;
+    fill: url(#SVGID_106_);
+    enable-background: new;
+}
+
+.st124 {
+    opacity: 0.5;
+    fill: url(#SVGID_107_);
+    enable-background: new;
+}
+
+.st125 {
+    opacity: 0.5;
+    fill: url(#SVGID_108_);
+    enable-background: new;
+}
+
+.st126 {
+    opacity: 0.3;
+    fill: url(#SVGID_109_);
+    enable-background: new;
+}
+
+.st127 {
+    opacity: 0.3;
+    fill: url(#SVGID_110_);
+    enable-background: new;
+}
+
+.st128 {
+    opacity: 0.3;
+    fill: url(#SVGID_111_);
+    enable-background: new;
+}
+
+.st129 {
+    opacity: 0.3;
+    fill: url(#SVGID_112_);
+    enable-background: new;
+}
+
+.st130 {
+    opacity: 0.5;
+    fill: url(#SVGID_113_);
+    enable-background: new;
+}
+
+.st131 {
+    opacity: 0.5;
+    fill: url(#SVGID_114_);
+    enable-background: new;
+}
+
+.st132 {
+    opacity: 0.3;
+    fill: url(#SVGID_115_);
+    enable-background: new;
+}
+
+.st133 {
+    opacity: 0.5;
+    fill: url(#SVGID_116_);
+    enable-background: new;
+}
+
+.st134 {
+    fill: #FEB1A8;
+}
+
+.st135 {
+    fill: url(#SVGID_117_);
+}
+
+.st136 {
+    fill: url(#SVGID_118_);
+}
+
+.st137 {
+    fill: #34C7FF;
+}
+
+.st138 {
+    opacity: 0.5;
+    fill: url(#SVGID_119_);
+    enable-background: new;
+}
+
+.st139 {
+    opacity: 0.2;
+    fill: #FF275E;
+    enable-background: new;
+}
+
+.st140 {
+    fill: url(#SVGID_120_);
+}
+
+.st141 {
+    fill: url(#SVGID_121_);
+}

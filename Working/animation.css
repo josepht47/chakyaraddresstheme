@@ -1,3 +1,73 @@
+#blog-animation{
+    width: 60vw;
+}
+
+.leftleaves{
+    animation: bg-rotl 4s alternate-reverse infinite linear;
+-webkit-animation: bg-rotl 4s alternate-reverse infinite linear; 
+} 
+.leftmiddleleaf{
+    animation: bg-rotl 4.2s alternate-reverse infinite linear;
+-webkit-animation: bg-rotl 4.2s alternate-reverse infinite linear; 
+} 
+.leftfrontleaf{
+    animation: bg-swayl 3s alternate-reverse infinite linear;
+-webkit-animation: bg-swayl 3s alternate-reverse infinite linear; 
+}
+
+@keyframes bg-swayl{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-20px);
+    }
+}
+
+
+@keyframes bg-rotl{
+    from{
+        transform: rotate(0deg);
+        
+    }
+    to{
+        transform: rotate(-3deg);
+    }
+}
+
+
+.rightfrontleaves{
+animation: bg-sway 3s alternate-reverse infinite linear;
+-webkit-animation: bg-sway 3s alternate-reverse infinite linear;   
+}
+.rightdarkleaves{
+animation: bg-rot 4s alternate-reverse infinite linear;
+-webkit-animation: bg-rot 4s alternate-reverse infinite linear;  
+}
+
+
+
+@keyframes bg-rot{
+    from{
+        transform: rotate(0deg);
+        
+    }
+    to{
+        transform: rotate(3deg);
+    }
+}
+
+@keyframes bg-sway{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(20px);
+    }
+}
+
+
+/*-------------*/
 #mainhero{
     width:40vw;
     padding: 10px 0 10px 10px;
@@ -7,17 +77,21 @@
 
 .rightsplatter, .leafsplatter{
 animation: movt-animr 3s alternate-reverse infinite linear;
+-webkit-animation: movt-animr 3s alternate-reverse infinite linear;;
 }
 
 .leftsplatter{
     animation: movt-animl 3s alternate-reverse infinite linear;
+    -webkit-animation: movt-animl 3s alternate-reverse infinite linear;;
 }
 
 .shirtsplatter{
     animation: movt-animb 3s alternate-reverse infinite linear;
+    -webkit-animation: movt-animb 3s alternate-reverse infinite linear;;
 }
 .hairsplatter{
     animation: movt-animla 3s alternate-reverse infinite linear;
+    -webkit-animation: movt-animla 3s alternate-reverse infinite linear;;
 }
 
 @keyframes movt-animla{
@@ -55,7 +129,97 @@ animation: movt-animr 3s alternate-reverse infinite linear;
     to{
         transform: translate(30px,-50px);
     }
+
+  
 }
+/* Blog Animation */
+.bt0 {
+    fill: #256653;
+}
+
+.bt1 {
+    fill: #3C8F7C;
+}
+
+.bt2 {
+    fill: #327F6B;
+}
+
+.bt3 {
+    fill: #50BFA5;
+}
+
+.bt4 {
+    fill: #96D9C9;
+}
+
+.bt5 {
+    fill: #F8A492;
+}
+
+.bt6 {
+    fill: #355389;
+}
+
+.bt7 {
+    fill: #FE875E;
+}
+
+.bt8 {
+    fill: #13375B;
+}
+
+.bt9 {
+    fill: #F7CC7F;
+}
+
+.bt10 {
+    fill: #F48C7F;
+}
+
+.bt11 {
+    fill: #F47458;
+}
+
+.bt12 {
+    fill: #184655;
+}
+
+.bt13 {
+    fill: #F7A491;
+}
+
+.bt14 {
+    fill: #466EB6;
+}
+
+.bt15 {
+    fill: #FFFFFF;
+}
+
+.bt16 {
+    fill: #DD513A;
+}
+
+.bt17 {
+    fill: #E0973F;
+}
+
+.bt18 {
+    fill: #0E2E35;
+}
+
+.bt19 {
+    fill: #6A97CE;
+}
+
+.bt20 {
+    fill: #9BC1F9;
+}
+
+/* Home animation CSS*/  
+
+
 .st0 {
     fill: #E0F3FF;
 }
